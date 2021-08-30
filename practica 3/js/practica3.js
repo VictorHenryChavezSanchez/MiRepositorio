@@ -43,14 +43,26 @@
          document.getElementById ('factor').value = factorial;
      }
  
- // Ejercicio 4
- function Fecha()
- {
-     var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
-     var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
-     var f=new Date();
-     document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
-     document.getElementById ('fecha').value = f ;
- 
-     
- }
+  // Ejercicio 4
+function Fecha ()
+{
+	var f = new Date();
+     var diaSemana = f.getDay();
+     var dia = f.getDate();
+     var mes = f.getMonth();
+     var year =f.getFullYear();
+     var pDiaSemana = document.getElementById('mostrarfecha');
+            var pDia = document.getElementById('mostrarfecha');
+            var pMes = document.getElementById('mostrarfecha');
+            var pYear = document.getElementById('mostrarfecha');
+            var semana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
+            pDiaSemana = semana[diaSemana];
+            pDia = dia;  
+            var meses = ['Enero','Febrero','Marzo','Abril','Mayo','Juio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+            pMes = meses[mes];
+            pYear = year; 
+            var res= pDiaSemana+" "+pDia+" de "+pMes+" "+" del "+ pYear;
+     document.getElementById('mostrarfecha').value= res;
+
+
+}
