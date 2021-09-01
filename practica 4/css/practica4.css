@@ -31,6 +31,7 @@ section{
     display: inline-block;
     margin-left: 200px;
     margin-top: 70px;
+    color: turquoise;
 }
 section p{
     margin: 5px;
@@ -39,6 +40,7 @@ article{
     position: relative;
     display: inline-block;
     margin-left: 100px;
+    color: turquoise;
 }
 article p{
     margin: 5px;
@@ -47,6 +49,7 @@ div{
     position: relative;
     display: inline-block;
     margin-left: 100px;
+    color: turquoise;
 }
 div p{
     margin: 5px;
