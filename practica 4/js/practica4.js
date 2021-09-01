@@ -1,11 +1,11 @@
 // APIKey : e19d105c22c1f38a43162f6011a1ceac
-// ID Ciudad: Quillacollo:  3906791
-// URL: api.openweathermap.org/data/2.5/weather?id=3906791&units=metric&appid=e19d105c22c1f38a43162f6011a1ceac
+// ID Ciudad: La Paz: 3911925
+// URL: api.openweathermap.org/data/2.5/weather?id=3911925&units=metric&appid=e19d105c22c1f38a43162f6011a1ceac
 
 
 
 
-const requestURL="https://openweathermap.org/city/3919968";
+const requestURL="https://api.openweathermap.org/data/2.5/weather?id=3911925&units=metric&appid=e19d105c22c1f38a43162f6011a1ceac";
 const request = new XMLHttpRequest();
 request.open('GET',requestURL);
 
