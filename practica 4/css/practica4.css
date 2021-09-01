@@ -8,12 +8,12 @@ html {
 body{
     
     margin: 0 auto;
-    background: red;
+    background: black;
 }
 
 h1, h2,h3,h4 {
     font-family: cursive;
-    color: black;
+    color: turquoise;
   }
   h1 {
     font-size: 4rem;
