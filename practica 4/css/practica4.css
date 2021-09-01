@@ -24,7 +24,6 @@ header{
     position: relative;
     text-align: center;
     margin: 50px 20px;
-    color: turquoise;
 }
 
 section{
@@ -40,7 +39,6 @@ article{
     position: relative;
     display: inline-block;
     margin-left: 100px;
-    color: turquoise;
 }
 article p{
     margin: 5px;
